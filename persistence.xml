@@ -4,16 +4,6 @@
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
     <class>com.ichag.simplejpa.Workers</class>
     <properties>
-      <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@//130.61.214.22:1521/json.net1.marcelsservices.oraclevcn.com"/>
-      <property name="javax.persistence.jdbc.user" value="javasamples"/>
-      <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
-      <property name="javax.persistence.jdbc.password" value="BrunhildeZ32##"/>
-    </properties>
-  </persistence-unit>
-  <persistence-unit name="TestUnit" transaction-type="RESOURCE_LOCAL">
-    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
-    <class>com.ichag.simplejpa.Workers</class>
-    <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:default:connection:"/>
       <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
     </properties>
